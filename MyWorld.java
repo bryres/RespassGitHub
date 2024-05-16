@@ -19,6 +19,7 @@ public class MyWorld extends World
         super(600, 400, 1); 
         prepare();
     }
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
@@ -29,5 +30,7 @@ public class MyWorld extends World
         addObject(flower,175,117);
         Flower flower2 = new Flower();
         addObject(flower2,456,271);
+        flower.setLocation(348,74);
+        flower2.setLocation(169,277);
     }
 }
